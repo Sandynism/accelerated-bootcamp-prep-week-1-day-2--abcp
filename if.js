@@ -9,6 +9,6 @@ function overTen(number) {
   if (number > 10) {
     return number
   } else {
-    console.log("This number is not greater than 10!")
+    return("This number is not greater than 10!")
   }
 }
