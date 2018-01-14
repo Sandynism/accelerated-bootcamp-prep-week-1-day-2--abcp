@@ -6,7 +6,7 @@ if (pokemon == "Pikachu") {
 
 function overTen(number) {
   //ifstatements
-  if (number === 10) {
+  if (number > 10) {
     return number
   } else {
     console.log("This number is not greater than 10!")
